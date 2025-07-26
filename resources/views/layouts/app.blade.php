@@ -373,6 +373,9 @@
                     <a href="{{ route('materials') }}" class="{{ request()->routeIs('materials') ? 'active' : '' }}">
                         <i class="fas fa-book"></i> Materi
                     </a>
+                    <a href="{{ route('links') }}" class="{{ request()->routeIs('links') ? 'active' : '' }}">
+                        <i class="fas fa-link"></i> Links
+                    </a>
                     <a href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'active' : '' }}">
                         <i class="fas fa-info-circle"></i> Tentang Kami
                     </a>

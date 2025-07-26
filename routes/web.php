@@ -19,6 +19,7 @@ Route::get('/', [TrainingController::class, 'index'])->name('home');
 Route::get('/jadwal', [TrainingController::class, 'schedule'])->name('schedule');
 Route::get('/materi', [TrainingController::class, 'materials'])->name('materials');
 Route::get('/tentang-kami', [TrainingController::class, 'about'])->name('about');
+Route::get('/links', [TrainingController::class, 'links'])->name('links');
 Route::get('/materi/pendahuluan', [TrainingController::class, 'pendahuluan'])->name('pendahuluan');
 Route::get('/materi/organisasi-pengolahan', [TrainingController::class, 'organisasiPengolahan'])->name('organisasi-pengolahan');
 Route::get('/materi/mekanisme-pengolahan', [TrainingController::class, 'mekanismePengolahan'])->name('materi-mekanisme-pen');

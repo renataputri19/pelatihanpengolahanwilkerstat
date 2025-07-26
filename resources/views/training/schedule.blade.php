@@ -142,9 +142,44 @@
                                 <button class="btn-action btn-info" onclick="showDetails({{ $index }})" title="Detail">
                                     <i class="fas fa-info-circle"></i>
                                 </button>
-                                <a href="{{ route('materials') }}" class="btn-action btn-primary" title="Materi">
-                                    <i class="fas fa-download"></i>
-                                </a>
+                                
+                                @if($schedule['day'] === 'Sabtu' && $schedule['session'] === 'MOOC')
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4ndVCKb5nc3JikFKiHDLQdhFjkU-zfK3p6TMewG3a73MoFA/viewform" class="btn-action btn-purple" title="MOOC" target="_blank">
+                        <i class="fas fa-graduation-cap"></i>
+                    </a>
+                @elseif($schedule['day'] === 'Senin' && strpos($schedule['type'], 'Pembelajaran Daring') !== false)
+                    @if($schedule['material'] === 'Pre-test')
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfH1DQeXWvc2xQ3uhmREQmrv3VndCo6FCoWpbEf1rcvopw1nQ/viewform?usp=header" class="btn-action btn-secondary" title="Pretest" target="_blank">
+                            <i class="fas fa-clipboard-list"></i>
+                        </a>
+                    @elseif(strpos($schedule['material'], 'Asynchronous 1') !== false)
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdWQxWnGTczU4rfaVLSBNggKSO_DtnYqCxsYwwbjXJ3vK5ZyQ/viewform?usp=dialog" class="btn-action btn-dark" title="Async 1" target="_blank">
+                            <i class="fas fa-tasks"></i>
+                        </a>
+                    @else
+                        <a href="https://telkomsel.zoom.us/j/94278331222" class="btn-action btn-primary" title="Zoom" target="_blank">
+                            <i class="fas fa-video"></i>
+                        </a>
+                    @endif
+                @elseif($schedule['day'] === 'Selasa')
+                    @if(strpos($schedule['material'], 'Asynchronous') !== false && strpos($schedule['material'], 'peta') !== false)
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScFSV043sWppHnDLOCKlMEPOxqFu1MJNaXMpEHaax4OhuOfig/viewform?usp=dialog" class="btn-action btn-dark" title="Async 2" target="_blank">
+                            <i class="fas fa-clipboard-check"></i>
+                        </a>
+                    @elseif(strpos($schedule['material'], 'Post Test') !== false)
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfxrsaVGl2UBWoHpaPLaAkwzAOGYeYe8Ze4KMbfmaf6MZM8rw/viewform?usp=header" class="btn-action btn-danger" title="Post Test" target="_blank">
+                            <i class="fas fa-poll"></i>
+                        </a>
+                    @else
+                        <a href="{{ route('materials') }}" class="btn-action btn-primary" title="Materi">
+                            <i class="fas fa-download"></i>
+                        </a>
+                    @endif
+                @else
+                    <a href="{{ route('materials') }}" class="btn-action btn-primary" title="Materi">
+                        <i class="fas fa-download"></i>
+                    </a>
+                @endif
                             </div>
                         </td>
                     </tr>
@@ -501,6 +536,31 @@
 
     .btn-action.btn-primary {
         background: var(--accent-color);
+        color: white;
+    }
+
+    .btn-action.btn-purple {
+        background: #8b5cf6;
+        color: white;
+    }
+
+    .btn-action.btn-warning {
+        background: #f59e0b;
+        color: white;
+    }
+
+    .btn-action.btn-secondary {
+        background: #6b7280;
+        color: white;
+    }
+
+    .btn-action.btn-dark {
+        background: #374151;
+        color: white;
+    }
+
+    .btn-action.btn-danger {
+        background: #ef4444;
         color: white;
     }
 

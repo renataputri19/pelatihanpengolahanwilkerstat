@@ -37,6 +37,10 @@
                         <i class="fas fa-download"></i>
                         Lihat Materi
                     </a>
+                    <a href="{{ route('links') }}" class="btn btn-links">
+                        <i class="fas fa-link"></i>
+                        Semua Link
+                    </a>
                     <a href="https://drive.google.com/drive/folders/1EwGnhINXAAzDgPJYMfA_9ZwkG-s9WGnD?usp=drive_link" target="_blank" class="btn btn-accent">
                         <i class="fas fa-external-link-alt"></i>
                         Akses Google Drive
@@ -552,6 +556,20 @@
         background: linear-gradient(135deg, #059669, #047857);
         transform: translateY(-1px);
         box-shadow: var(--shadow-md);
+    }
+
+    .btn-links {
+        background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+        color: white;
+        border: none;
+        box-shadow: var(--shadow-md);
+    }
+
+    .btn-links:hover {
+        background: linear-gradient(135deg, #7c3aed, #6d28d9);
+        color: white;
+        transform: translateY(-1px);
+        box-shadow: var(--shadow-lg);
     }
 
     /* Section Title */

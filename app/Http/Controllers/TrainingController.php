@@ -22,10 +22,10 @@ class TrainingController extends Controller
         // Jadwal Pelatihan Petugas Pengolahan Wilkerstat SE2026
         // Pemutakhiran Kerangka Geospasial dan Muatan Wilkerstat
         $schedules = [
-            // Jumat, 25 Juli 2025 - Pembelajaran Mandiri
+            // Sabtu, 26 Juli 2025 - Pembelajaran Mandiri
             [
-                'date' => '2025-07-25',
-                'day' => 'Jumat',
+                'date' => '2025-07-26',
+                'day' => 'Sabtu',
                 'type' => 'Pembelajaran Mandiri',
                 'time' => '08:00–16:00',
                 'session' => 'MOOC',
@@ -39,7 +39,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-28',
                 'day' => 'Senin',
-                'type' => 'Pembelajaran Daring (8 JP)',
+                'type' => 'Pembelajaran Daring (8 JP) - Platform Zoom',
                 'time' => '08:00–08:15',
                 'session' => '-',
                 'material' => 'Pre-test',
@@ -50,7 +50,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-28',
                 'day' => 'Senin',
-                'type' => 'Pembelajaran Daring (8 JP)',
+                'type' => 'Pembelajaran Daring (8 JP) - Platform Zoom',
                 'time' => '08:15–09:00',
                 'session' => 'Sesi 1',
                 'material' => 'Organisasi Pengolahan: Pendahuluan, latar belakang, maksud dan tujuan, landasan hukum. Jenis instrumen dan perangkat, jadwal kegiatan. Admin BPS Kabupaten/Kota, Petugas Pengolahan',
@@ -61,7 +61,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-28',
                 'day' => 'Senin',
-                'type' => 'Pembelajaran Daring (8 JP)',
+                'type' => 'Pembelajaran Daring (8 JP) - Platform Zoom',
                 'time' => '09:00–09:45',
                 'session' => 'Sesi 2',
                 'material' => 'Mekanisme Pengolahan Muatan SLS: Mekanisme pengolahan secara umum. Master Wilkerstat dan Muatan SLS',
@@ -72,7 +72,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-28',
                 'day' => 'Senin',
-                'type' => 'Pembelajaran Daring (8 JP)',
+                'type' => 'Pembelajaran Daring (8 JP) - Platform Zoom',
                 'time' => '09:45–10:00',
                 'session' => '-',
                 'material' => 'Istirahat',
@@ -83,7 +83,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-28',
                 'day' => 'Senin',
-                'type' => 'Pembelajaran Daring (8 JP)',
+                'type' => 'Pembelajaran Daring (8 JP) - Platform Zoom',
                 'time' => '10:00–10:45',
                 'session' => 'Sesi 3',
                 'material' => 'Mekanisme Pengolahan Peta',
@@ -94,7 +94,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-28',
                 'day' => 'Senin',
-                'type' => 'Pembelajaran Daring (8 JP)',
+                'type' => 'Pembelajaran Daring (8 JP) - Platform Zoom',
                 'time' => '10:45–12:15',
                 'session' => 'Sesi 4',
                 'material' => 'Aplikasi SiPW: Pengenalan Aplikasi, Persiapan dan Sinkronisasi dengan FRS, Assign Petugas, Cetak Dokumen. Tata Cara Entri Dokumen SE2026-WILKERSTAT.RS',
@@ -105,7 +105,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-28',
                 'day' => 'Senin',
-                'type' => 'Pembelajaran Daring (8 JP)',
+                'type' => 'Pembelajaran Daring (8 JP) - Platform Zoom',
                 'time' => '12:15–13:00',
                 'session' => '-',
                 'material' => 'ISHOMA',
@@ -116,7 +116,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-28',
                 'day' => 'Senin',
-                'type' => 'Pembelajaran Daring (8 JP)',
+                'type' => 'Pembelajaran Daring (8 JP) - Platform Zoom',
                 'time' => '13:00–13:45',
                 'session' => 'Sesi 5',
                 'material' => 'Pengolahan Peta: Alat dan bahan, Penyiapan pengolahan peta, Penyiapan bahan',
@@ -127,7 +127,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-28',
                 'day' => 'Senin',
-                'type' => 'Pembelajaran Daring (8 JP)',
+                'type' => 'Pembelajaran Daring (8 JP) - Platform Zoom',
                 'time' => '13:45–14:30',
                 'session' => 'Sesi 6',
                 'material' => 'Pengolahan Peta (Lanjutan): Georeferensi peta',
@@ -138,7 +138,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-28',
                 'day' => 'Senin',
-                'type' => 'Pembelajaran Daring (8 JP)',
+                'type' => 'Pembelajaran Daring (8 JP) - Platform Zoom',
                 'time' => '14:30–15:15',
                 'session' => 'Sesi 7',
                 'material' => 'Pengolahan Peta (Lanjutan): Editing peta digital (Menggabungkan Poligon dan Memotong Poligon), Cleaning dan validasi',
@@ -149,7 +149,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-28',
                 'day' => 'Senin',
-                'type' => 'Pembelajaran Daring (8 JP)',
+                'type' => 'Pembelajaran Daring (8 JP) - Platform Zoom',
                 'time' => '15:15–16:00',
                 'session' => '-',
                 'material' => 'Asynchronous 1: Tugas terkait pengolahan muatan',
@@ -162,7 +162,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-29',
                 'day' => 'Selasa',
-                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP)',
+                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP) - HARRIS Hotel Batam Centre',
                 'time' => '07:30–07:45',
                 'session' => '-',
                 'material' => 'Registrasi',
@@ -173,7 +173,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-29',
                 'day' => 'Selasa',
-                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP)',
+                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP) - HARRIS Hotel Batam Centre',
                 'time' => '07:45–08:00',
                 'session' => '-',
                 'material' => 'Pembukaan',
@@ -184,7 +184,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-29',
                 'day' => 'Selasa',
-                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP)',
+                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP) - HARRIS Hotel Batam Centre',
                 'time' => '08:00–08:45',
                 'session' => 'Sesi 8',
                 'material' => 'Pengolahan Peta (Lanjutan): Dissolving',
@@ -195,7 +195,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-29',
                 'day' => 'Selasa',
-                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP)',
+                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP) - HARRIS Hotel Batam Centre',
                 'time' => '08:45–10:15',
                 'session' => 'Sesi 9',
                 'material' => 'Praktik Penggunaan Aplikasi SiPW',
@@ -206,7 +206,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-29',
                 'day' => 'Selasa',
-                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP)',
+                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP) - HARRIS Hotel Batam Centre',
                 'time' => '10:15–10:30',
                 'session' => '-',
                 'material' => 'Istirahat',
@@ -217,7 +217,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-29',
                 'day' => 'Selasa',
-                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP)',
+                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP) - HARRIS Hotel Batam Centre',
                 'time' => '10:30–11:15',
                 'session' => 'Sesi 10',
                 'material' => 'Praktik Penggunaan Aplikasi SiPW (Lanjutan)',
@@ -228,7 +228,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-29',
                 'day' => 'Selasa',
-                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP)',
+                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP) - HARRIS Hotel Batam Centre',
                 'time' => '11:15–12:00',
                 'session' => 'Sesi 11',
                 'material' => 'Praktik Pengolahan Peta: Praktik editing peta digital',
@@ -239,7 +239,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-29',
                 'day' => 'Selasa',
-                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP)',
+                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP) - HARRIS Hotel Batam Centre',
                 'time' => '12:00–13:00',
                 'session' => '-',
                 'material' => 'ISHOMA',
@@ -250,7 +250,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-29',
                 'day' => 'Selasa',
-                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP)',
+                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP) - HARRIS Hotel Batam Centre',
                 'time' => '13:00–15:15',
                 'session' => 'Sesi 12',
                 'material' => 'Praktik Pengolahan Peta (Lanjutan): Praktik editing peta digital',
@@ -261,7 +261,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-29',
                 'day' => 'Selasa',
-                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP)',
+                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP) - HARRIS Hotel Batam Centre',
                 'time' => '15:15–15:30',
                 'session' => '-',
                 'material' => 'Istirahat',
@@ -272,7 +272,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-29',
                 'day' => 'Selasa',
-                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP)',
+                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP) - HARRIS Hotel Batam Centre',
                 'time' => '15:30–16:15',
                 'session' => '-',
                 'material' => 'Asynchronous: Tugas terkait pengolahan peta',
@@ -283,7 +283,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-29',
                 'day' => 'Selasa',
-                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP)',
+                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP) - HARRIS Hotel Batam Centre',
                 'time' => '16:15–16:30',
                 'session' => '-',
                 'material' => 'Post Test',
@@ -294,7 +294,7 @@ class TrainingController extends Controller
             [
                 'date' => '2025-07-29',
                 'day' => 'Selasa',
-                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP)',
+                'type' => 'Pembelajaran Tatap Muka (Luring, 8 JP) - HARRIS Hotel Batam Centre',
                 'time' => '16:30–17:00',
                 'session' => '-',
                 'material' => 'Penegasan dan Penutupan Pelatihan',
@@ -2087,5 +2087,93 @@ class TrainingController extends Controller
         ];
 
         return view('training.dissolving-peta-detail', compact('tutorialData'));
+    }
+
+    /**
+     * Display training links page
+     */
+    public function links()
+    {
+        $linksData = [
+            'title' => 'Link Pelatihan',
+            'subtitle' => 'Akses Cepat ke Semua Resource Pelatihan',
+            'description' => 'Kumpulan link penting untuk mendukung kegiatan pelatihan Pengolahan Wilkerstat SE2026.',
+            'links' => [
+                [
+                    'title' => 'Link Zoom',
+                    'description' => 'Akses ruang meeting online untuk sesi pembelajaran daring',
+                    'url' => 'https://telkomsel.zoom.us/j/94278331222',
+                    'icon' => 'fas fa-video',
+                    'color' => 'primary',
+                    'category' => 'meeting'
+                ],
+                [
+                    'title' => 'Virtual Background',
+                    'description' => 'Download background virtual untuk meeting Zoom',
+                    'url' => 'https://drive.google.com/file/d/1hmINgtLPWuVcjXXKNhKgRDPn7uAvb9BK/view?usp=sharing',
+                    'icon' => 'fas fa-image',
+                    'color' => 'info',
+                    'category' => 'tools'
+                ],
+                [
+                    'title' => 'All Materi',
+                    'description' => 'Akses lengkap ke semua materi pelatihan',
+                    'url' => route('materials'),
+                    'icon' => 'fas fa-book-open',
+                    'color' => 'success',
+                    'category' => 'materials'
+                ],
+                [
+                    'title' => 'Absen (Attendance)',
+                    'description' => 'Form absensi kehadiran peserta pelatihan',
+                    'url' => 'https://webapps.bps.go.id/daftarhadir/#/go/wY83G',
+                    'icon' => 'fas fa-user-check',
+                    'color' => 'warning',
+                    'category' => 'attendance'
+                ],
+                [
+                    'title' => 'MOOC',
+                    'description' => 'Platform pembelajaran online mandiri',
+                    'url' => 'https://docs.google.com/forms/d/e/1FAIpQLSe4ndVCKb5nc3JikFKiHDLQdhFjkU-zfK3p6TMewG3a73MoFA/viewform',
+                    'icon' => 'fas fa-graduation-cap',
+                    'color' => 'purple',
+                    'category' => 'learning'
+                ],
+                [
+                    'title' => 'Pretest',
+                    'description' => 'Tes awal untuk mengukur pemahaman dasar',
+                    'url' => 'https://docs.google.com/forms/d/e/1FAIpQLSfH1DQeXWvc2xQ3uhmREQmrv3VndCo6FCoWpbEf1rcvopw1nQ/viewform?usp=header',
+                    'icon' => 'fas fa-clipboard-list',
+                    'color' => 'secondary',
+                    'category' => 'assessment'
+                ],
+                [
+                    'title' => 'Async1',
+                    'description' => 'Tugas asynchronous pertama',
+                    'url' => 'https://docs.google.com/forms/d/e/1FAIpQLSdWQxWnGTczU4rfaVLSBNggKSO_DtnYqCxsYwwbjXJ3vK5ZyQ/viewform?usp=dialog',
+                    'icon' => 'fas fa-tasks',
+                    'color' => 'dark',
+                    'category' => 'assignment'
+                ],
+                [
+                    'title' => 'Async 2',
+                    'description' => 'Tugas asynchronous kedua',
+                    'url' => 'https://docs.google.com/forms/d/e/1FAIpQLScFSV043sWppHnDLOCKlMEPOxqFu1MJNaXMpEHaax4OhuOfig/viewform?usp=dialog',
+                    'icon' => 'fas fa-clipboard-check',
+                    'color' => 'dark',
+                    'category' => 'assignment'
+                ],
+                [
+                    'title' => 'Posttest',
+                    'description' => 'Tes akhir untuk evaluasi pembelajaran',
+                    'url' => 'https://docs.google.com/forms/d/e/1FAIpQLSfxrsaVGl2UBWoHpaPLaAkwzAOGYeYe8Ze4KMbfmaf6MZM8rw/viewform?usp=header',
+                    'icon' => 'fas fa-poll',
+                    'color' => 'danger',
+                    'category' => 'assessment'
+                ]
+            ]
+        ];
+
+        return view('training.links', compact('linksData'));
     }
 }
