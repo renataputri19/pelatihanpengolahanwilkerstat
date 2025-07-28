@@ -2126,7 +2126,7 @@ class TrainingController extends Controller
                 [
                     'title' => 'Absen (Attendance)',
                     'description' => 'Form absensi kehadiran peserta pelatihan',
-                    'url' => 'https://webapps.bps.go.id/daftarhadir/#/go/wY83G',
+                    'url' => 'https://webapps.bps.go.id/daftarhadir/#/go/tSIvH',
                     'icon' => 'fas fa-user-check',
                     'color' => 'warning',
                     'category' => 'attendance'
